@@ -8,7 +8,6 @@ end
 	
 	local name = GetPlayerName(PlayerId())
 	local id = GetPlayerServerId(PlayerId())
-	--Citizen.InvokeNative(GetHashKey("ADD_TEXT_ENTRY"), 'FE_THDR_GTAO', '~y~AltisCity ~t~| ~g~Discord: w5yD9Mp~t~ | ~b~ID: ' .. id .. ' ~t~| ~b~Nom: ~b~' .. name .. " ~t~| ~r~Joueurs: " .. #players .. "/80")
 	Citizen.InvokeNative(GetHashKey("ADD_TEXT_ENTRY"), 'FE_THDR_GTAO', "~p~Szerver~w~ Név | ~y~ID: "..id.."")
 end
 
